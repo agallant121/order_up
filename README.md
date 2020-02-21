@@ -23,6 +23,7 @@ As a visitor
 When I visit a dish's show page
 I see the total calorie count for that dish
 
+
 Story 3 of 3
 As a visitor
 When I visit a chef's show page

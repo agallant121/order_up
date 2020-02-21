@@ -19,7 +19,16 @@ require 'rails_helper'
      expect(page).to have_content(@flour.name)
      expect(page).to have_content(@egg.name)
    end
+
+   it "shows total czlorie count for dish" do
+     expect(page).to have_content("Total Calorie Count: 600")
+   end
  end
+
+ # Story 2 of 3
+ # As a visitor
+ # When I visit a dish's show page
+ # I see the total calorie count for that dish
 
  # Story 1 of 3
  # As a visitor
