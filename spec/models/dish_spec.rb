@@ -22,4 +22,5 @@ RSpec.describe Dish, type: :model do
 
     expect(pasta.total_calories).to eq(600)
   end
+
 end

@@ -24,7 +24,7 @@ require 'rails_helper'
 
      click_link "Ingredients Used"
      expect(current_path).to eq("/chefs/#{@chef.id}/ingredients")
-     
+
      expect(page).to have_content(@spice.name)
      expect(page).to have_content(@flour.name)
      expect(page).to have_content(@egg.name)

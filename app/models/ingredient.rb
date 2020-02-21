@@ -4,4 +4,10 @@ class Ingredient < ApplicationRecord
 
   has_many :ingredient_dishes
   has_many :dishes, through: :ingredient_dishes
+
+
+  # def unique_ingredients
+  #   require "pry"; binding.pry
+  #   Ingredient.select(:name).joins(:dishes).distinct
+  # end
 end

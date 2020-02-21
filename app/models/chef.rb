@@ -3,7 +3,7 @@ class Chef <ApplicationRecord
 
   has_many :dishes
 
-  def unique_ingredients
-    require "pry"; binding.pry
-  end
+   # def unique_ingredients
+   #   Ingredient.select(:name).joins(:dishes).distinct
+   # end
 end
