@@ -1,5 +1,5 @@
 class Dish <ApplicationRecord
-  validates_presence_of :name, :description
+  validates_presence_of :name, :description, :calorie
 
   belongs_to :chef
   has_many :ingredient_dishes

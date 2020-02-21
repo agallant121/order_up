@@ -18,6 +18,7 @@ I see the name of the chef that made that dish
 And I see a list of ingredients for that dish
 Story 2 of 3
 
+Story 2 of 3
 As a visitor
 When I visit a dish's show page
 I see the total calorie count for that dish
