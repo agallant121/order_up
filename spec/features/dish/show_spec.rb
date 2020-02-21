@@ -2,10 +2,10 @@ require 'rails_helper'
  RSpec.describe "As a visitor" do
    before :each do
      @chef = Chef.create(name: "Alex")
-     @pasta = @chef.dishes.create(name: "Pasta", description: "Wicked good", calorie: 400)
-     @spice = Ingredient.create(name: "Spice")
-     @flour = Ingredient.create(name: "Flour")
-     @egg = Ingredient.create(name: "Egg")
+     @pasta = @chef.dishes.create(name: "Pasta", description: "Wicked good")
+     @spice = Ingredient.create(name: "Spice", calorie_count: 100)
+     @flour = Ingredient.create(name: "Flour", calorie_count: 200)
+     @egg = Ingredient.create(name: "Egg", calorie_count: 300)
 
      @pasta.ingredients << [@spice, @flour, @egg]
 
